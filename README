@@ -1,4 +1,10 @@
 A small helper application, intended to open Android Market URLs from a browser
 (which normally they refuse to do).
 
+Registers to handle urls in the 'marketlauncher:' scheme from the browser.
+Checks for URLs of the form 'marketlauncher://details?id=...' or 'marketlauncher://search?q=...' 
+and creates an intent with the equivalent 'market:...' URI and calls startActivity on it.
+
+Note that the emulator doesn't have a Market client (typically).
+
 Chris Greenhalgh, 2010-09-15.
