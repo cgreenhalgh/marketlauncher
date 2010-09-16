@@ -1,0 +1,4 @@
+A small helper application, intended to open Android Market URLs from a browser
+(which normally they refuse to do).
+
+Chris Greenhalgh, 2010-09-15.
